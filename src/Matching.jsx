@@ -113,7 +113,7 @@ function Matching({ userGameStatus }) {
   const checkGameOver = () => {
     if (score === 6) {
       endSound.play();
-      setGameOver(true);
+      // setGameOver(true);
       userGameStatus(true);
       // randomCard()
       //random and flip the card back
